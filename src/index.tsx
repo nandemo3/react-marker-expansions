@@ -3,24 +3,29 @@ import { Marker } from "react-map-gl";
 
 import { ExpansionMarkerProps } from "../types/react-map-gl-marker";
 
-import DefaultMarker from "./svg/default.svg";
+import { FaMapMarkerAlt } from "react-icons/fa";
 
 const ExpansionMarker = (props: ExpansionMarkerProps) => {
-  return (
-    <Marker
-      {...props}
-      style={{
-        position: "absolute",
-        left: "0px",
-        top: "0px",
-        cursor: "pointer",
-        stroke: "none",
-        fill: props.color || "black",
-      }}
-    >
-      <DefaultMarker height={props.size} width={props.size} />
-    </Marker>
-  );
+  try {
+    return (
+      <Marker
+        {...props}
+        style={{
+          position: "absolute",
+          left: "0px",
+          top: "0px",
+          cursor: "pointer",
+          stroke: "none",
+          fill: props.color || "black",
+        }}
+      >
+        <FaMapMarkerAlt size={props.size} />
+      </Marker>
+    );
+  } catch (e) {
+    console.log(e);
+    return <></>;
+  }
 };
 
 export default ExpansionMarker;

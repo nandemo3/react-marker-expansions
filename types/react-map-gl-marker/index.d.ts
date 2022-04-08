@@ -1,4 +1,3 @@
-/// <reference path="global.d.ts" />
 import { MarkerProps } from "react-map-gl";
 
 type VariantProps = "default" | "circle" | "sqare";
