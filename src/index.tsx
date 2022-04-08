@@ -1,7 +1,7 @@
 import React from "react";
 import { Marker } from "react-map-gl";
 
-import { ExpansionMarkerProps } from "../types/react-marker-expansions";
+import { ExpansionMarkerProps } from "../types/react-map-gl-marker";
 
 import DefaultMarker from "./svg/default.svg";
 
