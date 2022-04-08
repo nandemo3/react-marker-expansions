@@ -1,6 +1,6 @@
 import { MarkerProps } from "react-map-gl";
 
-type VariantProps = "default" | "circle" | "sqare";
+type VariantProps = "default" | "circle" | "square";
 type ImageExpand = "jpg" | "png" | "svg" | "gif";
 
 export interface ExpansionMarkerProps extends MarkerProps {
