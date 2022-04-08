@@ -1,5 +1,5 @@
 {
-  "name": "react-map-gl-marker",
+  "name": "react-map-gl-marker-expansions",
   "version": "0.0.1",
   "main": "./dist/index.js",
   "author": "nandemo3",
@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc"
   },
-  "types": "./types/react-map-gl-marker/index.d.ts",
+  "types": "./types/react-map-gl-marker-expansions/index.d.ts",
   "devDependencies": {
     "@types/react": "^17.0.43",
     "@types/react-dom": "^17.0.14",

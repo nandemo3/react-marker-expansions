@@ -1,1 +1,1 @@
-# react-map-gl-marker
+# react-map-gl-marker-expansions
